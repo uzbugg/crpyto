@@ -2,7 +2,7 @@
 A python crypto library with zero dependencies
 
 #TO DO
-- [] finish Keccak
+- [] finish computation of t in Rho algorithm
 - []
 - []
 - []
