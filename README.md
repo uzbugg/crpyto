@@ -1,2 +1,8 @@
 # crpyto
-Python library for all things crypto
+A python crypto library with zero dependencies
+
+#TO DO
+- [] finish computation of t in Rho algorithm
+- []
+- []
+- []
