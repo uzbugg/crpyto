@@ -9,7 +9,7 @@
 -Shoot me a message via arikanevsky@gmail.com if interested in helping develop this into something cool and useful :)
 
 #TO DO
-- [ ] Keccak sha-3 *[1]*
+- [ ] Keccak sha-3 ######[1]
   
   - [ ] Rounds
   
