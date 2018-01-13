@@ -23,7 +23,7 @@
           
     - [ ] Implement chi as per **<sub>1</sub>**
           
-    - [ ] Implement iota as per **<sub>1</sub>**
+    - [ ] Implement iota as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
 
 - [ ] RSA **<sub>2</sub>**
 - [ ] Twofish **<sub>3</sub>**
