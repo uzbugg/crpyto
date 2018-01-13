@@ -7,21 +7,21 @@
 
 #TO DO
 - [ ] Keccak sha-3 [1]
-      
-     - [X] Rounds
+  
+ - [X] Rounds
+  
+  - [X] Implement theta as per [1]
           
-          - [X] Implement theta as per [1]
+  - [X] Implement rho as per [1] 
           
-          - [X] Implement rho as per [1] 
+   - [ ] Finish computation of t 
           
+  - [ ] Implement pi as per [1]
           
-          - [ ] Finish computation of t
+  - [ ] Implement chi as per [1]
           
-          - [ ] Implement pi as per [1]
-          
-          - [ ] Implement chi as per [1]
-          
-          - [ ] Implement iota as per [1]
+  - [ ] Implement iota as per [1]
+
 - [ ] RSA
 - [ ] Twofish
 - [ ] Rijndael
