@@ -94,7 +94,7 @@ class Keccak(metaclass=ABCMeta):
             self._n = 12 + 2 * l
 
         except IndexError:
-            return str(l) + ' is not an available Keccak-f permutation.'
+            pass
 
     def keccak_f(self):
         for i in self._n - 1:
