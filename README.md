@@ -1,7 +1,7 @@
 # crpyto
 -A python crypto library with minimal dependencies
 
--Still in super early stages, looking for cool ideas!
+-Still in super early stages
 
 -One opt for future research could involve trying to deep-learn some mappings to break these crypto algos.
 
