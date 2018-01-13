@@ -88,13 +88,13 @@ class Keccak(metaclass=ABCMeta):
             self._a = [[[0] * self._x] * self._y] * self._w
 
             # Set bit array size
-            self._s = [0] * self._b - 1
+            self._s = [0 * self._b - 1]
 
             # Get number of rounds
             self._n = 12 + 2 * l
 
-        except IndexError:
-            pass
+        except IndexError as err:
+            print(err.args)
 
     def keccak_f(self):
         for i in self._n - 1:
@@ -159,7 +159,8 @@ class Keccak(metaclass=ABCMeta):
                 break
 
         return t
- 
+
+    '''
     def round(self):
 
         # Theta
@@ -180,6 +181,6 @@ class Keccak(metaclass=ABCMeta):
                         t = self.t()
                     self._a[x][y][z] += self._a[x][y][(z-(t+1)(t+2)/2) % self._w]
 
-
+'''
 
 
