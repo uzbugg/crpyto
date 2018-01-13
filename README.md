@@ -8,11 +8,11 @@
 #TO DO
 - [ ] Keccak sha-3 [1]
   
-  - [X] Rounds
+  - [ ] Rounds
   
     - [X] Implement theta as per [1]
           
-    - [X] Implement rho as per [1] 
+    - [ ] Implement rho as per [1] 
           
       - [ ] Finish computation of t 
           
