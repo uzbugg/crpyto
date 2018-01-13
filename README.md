@@ -9,26 +9,26 @@
 -Shoot me a message via arikanevsky@gmail.com if interested in helping develop this into something cool and useful :)
 
 #TO DO
-- [ ] Keccak sha-3 [1]
+- [ ] Keccak sha-3 *[1]*
   
   - [ ] Rounds
   
-    - [X] Implement theta as per [1]
+    - [X] Implement theta as per *[1]*
           
-    - [ ] Implement rho as per [1] 
+    - [ ] Implement rho as per *[1]* 
           
       - [ ] Finish computation of t 
           
-    - [ ] Implement pi as per [1]
+    - [ ] Implement pi as per *[1]*
           
-    - [ ] Implement chi as per [1]
+    - [ ] Implement chi as per *[1]*
           
-    - [ ] Implement iota as per [1]
+    - [ ] Implement iota as per *[1]*
 
-- [ ] RSA [2]
-- [ ] Twofish [3]
-- [ ] Rijndael [4]
-- [ ] Mars [5]
+- [ ] RSA *[2]*
+- [ ] Twofish *[3]*
+- [ ] Rijndael *[4]*
+- [ ] Mars *[5]*
 
 Refs:
 
