@@ -1,11 +1,9 @@
 # crpyto
 -A python crypto library with minimal dependencies
 
--Still in super early stages
-
 -One opt for future research could involve trying to deep-learn some mappings to break these crypto algos.
 
--Shoot me a message via arikanevsky@gmail.com
+-Shoot me a message via arikanevsky@gmail.com if interested in helping develop this into something cool and useful :)
 
 #TO DO
 - [ ] Keccak sha-3 [1]
