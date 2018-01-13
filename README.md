@@ -8,7 +8,7 @@
 #TO DO
 - [ ] Keccak sha-3 [1]
       
-      - [X] Rounds
+     - [X] Rounds
           
           - [X] Implement theta as per [1]
           
