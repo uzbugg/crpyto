@@ -25,10 +25,10 @@
           
     - [ ] Implement iota as per [1]
 
-- [ ] RSA
-- [ ] Twofish
-- [ ] Rijndael
-- [ ] Mars
+- [ ] RSA [2]
+- [ ] Twofish [3]
+- [ ] Rijndael [4]
+- [ ] Mars [5]
 
 Refs:
 
