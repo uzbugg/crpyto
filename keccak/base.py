@@ -44,6 +44,9 @@ class Keccak(metaclass=ABCMeta):
     # Column vector (Rho usage)
     _cv = [1, 0]
 
+    # Possible t values
+    _t = [i for i in range(24)]
+
     # Round constants
     # Default insantiation based on _w: 64
     _RC = [0x0000000000000001,
@@ -82,10 +85,10 @@ class Keccak(metaclass=ABCMeta):
             self._b = 25 * self._w
 
             # Set state array size
-            self._a = [[[None] * self._x] * self._y] * self._w
+            self._a = [[[0] * self._x] * self._y] * self._w
 
             # Set bit array size
-            self._s = [None] * self._b - 1
+            self._s = [0] * self._b - 1
 
             # Get number of rounds
             self._n = 12 + 2 * l
@@ -100,37 +103,72 @@ class Keccak(metaclass=ABCMeta):
 
     # Theta auxiliary method
     def sum_a(self, x, z):
-        _sum_a = None
+        _sum_a = self._a.copy()
         for y in range(4):
-            _sum_a += self._a[x - 1][y][z]
+            _sum_a += self._a[(x - 1) % 5][y % 5][z % self._w]
         return _sum_a
 
     # Theta auxiliary method
     def sum_b(self, x, z):
-        _sum_b = None
+        _sum_b = self._a.copy()
         for y in range(4):
-            _sum_b += self._a[x + 1][y][z - 1]
+            _sum_b += self._a[(x + 1) % 5][y % 5][(z - 1) % self._w]
         return _sum_b
 
     # Rho auxiliary method
     def t(self, x, y):
+        """
+        _sm index map
+          idx : val
+        -------------
+           00 : 0
+           01 : 1
+           10 : 2
+           11 : 3
+        """
+        tmp = [[None, None],
+               [None, None]]
 
-        # matrix indices
-        aa = None
-        ab = None
-        ba = None
-        bb = None
+        for t in self._t:
 
-        
+            # Compute index 00 for _tmp, GF(5)
+            tmp[0][0] = (pow(((((self._sm[0][0] * self._sm[0][0]) % 5) +
+                               (self._sm[0][1] * self._sm[1][0]) % 5) % 5),
+                             t) % 5)
 
+            # Compute index 01 for _tmp, GF(5)
+            tmp[0][1] = (pow(((((self._sm[0][0] * self._sm[0][1]) % 5) +
+                               (self._sm[0][1] * self._sm[1][1]) % 5) % 5),
+                             t) % 5)
+
+            # Compute index 10 for _tmp, GF(5)
+            tmp[1][0] = (pow(((((self._sm[1][0] * self._sm[0][0]) % 5) +
+                               (self._sm[1][1] * self._sm[1][0]) % 5) % 5),
+                             t) % 5)
+
+            # Compute index 11 for _tmp, GF(5)
+            tmp[1][1] = (pow(((((self._sm[1][0] * self._sm[0][1]) % 5) +
+                               (self._sm[1][1] * self._sm[1][1]) % 5) % 5),
+                             t) % 5)
+
+            if (((tmp[0][0] * self._cv[0]) % 5 +
+                 (tmp[0][1] * self._cv[1]) % 5) % 5 == x and
+                ((tmp[1][0] * self._cv[0]) % 5 +
+                 (tmp[1][1] * self._cv[1]) % 5) % 5 == y):
+
+                break
+
+        return t
+ 
     def round(self):
 
         # Theta
         for x in range(self._x):
             for y in range(self._y):
                 for z in range(self._w):
-                    self._a[x][y][z] += (self.sum_a(x, z) +
-                                         self.sum_b(x, z))
+                    self._a[x][y][z] = (self._a[x][y][z] +
+                                        (self.sum_a(x, z) +
+                                        self.sum_b(x, z)))
 
         # Rho
         for x in range(self._x):
@@ -140,7 +178,7 @@ class Keccak(metaclass=ABCMeta):
                         t = -1
                     else:
                         t = self.t()
-                    self._a[x][y][z] += self._a[x][y][z-(t+1)(t+2)/2] 
+                    self._a[x][y][z] += self._a[x][y][(z-(t+1)(t+2)/2) % self._w]
 
 
 
