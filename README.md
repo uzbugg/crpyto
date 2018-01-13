@@ -9,26 +9,26 @@
 -Shoot me a message via arikanevsky@gmail.com if interested in helping develop this into something cool and useful :)
 
 #TO DO
-- [ ] Keccak sha-3 **<sub>1</sub>**
+- [ ] Keccak sha-3 <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
   
   - [ ] Rounds
   
-    - [X] Implement theta as per **<sub>1</sub>**
+    - [X] Implement theta as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
-    - [ ] Implement rho as per **<sub>1</sub>**
+    - [ ] Implement rho as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
       - [ ] Finish computation of t 
           
-    - [ ] Implement pi as per **<sub>1</sub>**
+    - [ ] Implement pi as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
-    - [ ] Implement chi as per **<sub>1</sub>**
+    - [ ] Implement chi as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
     - [ ] Implement iota as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
 
-- [ ] RSA **<sub>2</sub>**
-- [ ] Twofish **<sub>3</sub>**
-- [ ] Rijndael **<sub>4</sub>**
-- [ ] Mars **<sub>5</sub>**
+- [ ] RSA <a href= https://sites.math.washington.edu/~morrow/336_09/papers/Yevgeny.pdf>**<sub>2</sub>**</a>
+- [ ] Twofish <a href= https://www.schneier.com/academic/paperfiles/paper-twofish-paper.pdf>**<sub>3</sub>**</a>
+- [ ] Rijndael <a href= https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf>**<sub>4</sub>**</a>
+- [ ] Mars <a href= http://www.nada.kth.se/kurser/kth/2D1449/99-00/mars.pdf>**<sub>5</sub>**</a>
 
 Refs:
 
