@@ -13,17 +13,17 @@
   
   - [ ] Rounds
   
-    - [X] Implement theta as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+    - [X] Implement theta<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
-    - [ ] Implement rho as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+    - [ ] Implement rho<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
       - [ ] Finish computation of t 
           
-    - [ ] Implement pi as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+    - [ ] Implement pi<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
-    - [ ] Implement chi as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+    - [ ] Implement chi<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
-    - [ ] Implement iota as per <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+    - [ ] Implement iota<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
 
 - [ ] RSA <a href= https://sites.math.washington.edu/~morrow/336_09/papers/Yevgeny.pdf>**<sub>2</sub>**</a>
 - [ ] Twofish <a href= https://www.schneier.com/academic/paperfiles/paper-twofish-paper.pdf>**<sub>3</sub>**</a>
