@@ -23,13 +23,12 @@
 
 Refs:
 
-[1] https://keccak.team/files/Keccak-reference-3.0.pdf
+- [1] https://keccak.team/files/Keccak-reference-3.0.pdf
 
-[2] https://sites.math.washington.edu/~morrow/336_09/papers/Yevgeny.pdf
+- [2] https://sites.math.washington.edu/~morrow/336_09/papers/Yevgeny.pdf
 
-[3] https://www.schneier.com/academic/paperfiles/paper-twofish-paper.pdf
+- [3] https://www.schneier.com/academic/paperfiles/paper-twofish-paper.pdf
 
-[4] https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-  
-ammended.pdf
+- [4] https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf
 
-[5] http://www.nada.kth.se/kurser/kth/2D1449/99-00/mars.pdf
+- [5] http://www.nada.kth.se/kurser/kth/2D1449/99-00/mars.pdf
