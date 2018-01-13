@@ -1,4 +1,7 @@
 # crpyto
+
+**Note: This library has not passed cryptographic review**
+
 -A python crypto library with minimal dependencies
 
 -One opt for future research could involve trying to deep-learn some mappings to break these crypto algos.
