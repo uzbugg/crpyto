@@ -2,11 +2,11 @@
 
 **Note: This library has not passed cryptographic review**
 
-<li>A python crypto library with minimal dependencies</li>
+<li>A python crypto library with minimal dependencies.</li>
 
 <li>One opt for future research could involve trying to deep-learn some mappings to break these crypto algos.</li>
 
-<li>Shoot me a message via arikanevsky@gmail.com if interested in helping develop this </li>
+<li>Shoot me a message via arikanevsky@gmail.com if interested in helping develop this. </li>
 
 <br></br>
 
