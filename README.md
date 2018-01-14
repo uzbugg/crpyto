@@ -1,4 +1,3 @@
-# crpyto
 
 ![Logo](http://akanev.com/sf/ari/crpyto-logo.png)
 
