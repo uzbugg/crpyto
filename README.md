@@ -5,9 +5,6 @@
 
 <li>A python crypto library with minimal dependencies.</li>
 
-<li>One opt for future research could involve trying to deep-learn some mappings to break these crypto algos.</li>
-
-
 <br></br>
 
 
