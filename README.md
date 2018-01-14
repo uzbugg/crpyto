@@ -3,7 +3,7 @@
  
  <br></br>
 
- **Note: This library has not passed cryptographic review**
+ **Note: This library has not passed cryptographic review yet**
 
  <br></br>
 
