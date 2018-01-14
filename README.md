@@ -2,13 +2,13 @@
 
 **Note: This library has not passed cryptographic review**
 
--A python crypto library with minimal dependencies
+<li>A python crypto library with minimal dependencies</li>
 
 -One opt for future research could involve trying to deep-learn some mappings to break these crypto algos.
 
 -Shoot me a message via arikanevsky@gmail.com if interested in helping develop this into something cool and useful :)
 
-#TODO
+**#TODO**
 - [ ] Keccak sha-3 <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
   
   - [ ] Rounds
