@@ -4,6 +4,8 @@
  <br></br>
 
  **Note: This library has not passed cryptographic review yet**
+ 
+ Also, there are minimal dependencies from default python libraries as of now, (whoops).
 
  <br></br>
 
