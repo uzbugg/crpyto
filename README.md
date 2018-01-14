@@ -20,7 +20,7 @@
           
     - [ ] Implement rho<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
-      - [ ] Finish computation of t 
+      - [ ] Finish computation of t<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
     - [ ] Implement pi<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
           
