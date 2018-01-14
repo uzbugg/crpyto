@@ -1,5 +1,5 @@
 
-![Logo](http://akanev.com/sf/ari/crpyto-logo.png)
+![Logo](http://akanev.com/sf/ari/crpyto-logo.png)
 
 **Note: This library has not passed cryptographic review**
 
