@@ -12,26 +12,26 @@
 
 
 **#TODO**
-- [ ] Keccak sha-3 <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+- [ ] Keccak sha-3 <a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sup>1</sup>**</a>
   
   - [ ] Rounds
   
-    - [X] Implement theta<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+    - [X] Implement theta<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sup>1</sup>**</a>
           
-    - [ ] Implement rho<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+    - [ ] Implement rho<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sup>1</sup>**</a>
           
-      - [ ] Finish computation of t<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+      - [ ] Finish computation of t<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sup>1</sup>**</a>
           
-    - [ ] Implement pi<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+    - [ ] Implement pi<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sup>1</sup>**</a>
           
-    - [ ] Implement chi<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+    - [ ] Implement chi<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sup>1</sup>**</a>
           
-    - [ ] Implement iota<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sub>1</sub>**</a>
+    - [ ] Implement iota<a href= https://keccak.team/files/Keccak-reference-3.0.pdf>**<sup>1</sup>**</a>
 
-- [ ] RSA <a href= https://sites.math.washington.edu/~morrow/336_09/papers/Yevgeny.pdf>**<sub>2</sub>**</a>
-- [ ] Twofish <a href= https://www.schneier.com/academic/paperfiles/paper-twofish-paper.pdf>**<sub>3</sub>**</a>
-- [ ] Rijndael <a href= https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf>**<sub>4</sub>**</a>
-- [ ] Mars <a href= http://www.nada.kth.se/kurser/kth/2D1449/99-00/mars.pdf>**<sub>5</sub>**</a>
+- [ ] RSA <a href= https://sites.math.washington.edu/~morrow/336_09/papers/Yevgeny.pdf>**<sup>2</sup>**</a>
+- [ ] Twofish <a href= https://www.schneier.com/academic/paperfiles/paper-twofish-paper.pdf>**<sup>3</sup>**</a>
+- [ ] Rijndael <a href= https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf>**<sup>4</sup>**</a>
+- [ ] Mars <a href= http://www.nada.kth.se/kurser/kth/2D1449/99-00/mars.pdf>**<sup>5</sup>**</a>
 
 
 <br></br>
