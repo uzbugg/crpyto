@@ -2,8 +2,6 @@
 
  **Note: This library has not passed cryptographic review**
 
- <li>A python crypto library with minimal dependencies.</li>
-
  <br></br>
 
 
