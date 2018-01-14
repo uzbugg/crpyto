@@ -1,7 +1,7 @@
 ![Logo](http://akanev.com/sf/ari/crpyto-logo.png)
 
  
- <br style=line-height:10%;></br>
+ <br></br>
 
  **Note: This library has not passed cryptographic review**
 
